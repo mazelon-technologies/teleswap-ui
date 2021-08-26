@@ -108,8 +108,7 @@ const HeaderRow = styled(RowFixed)`
 `
 
 const HeaderLinks = styled(Row)`
-  justify-self: center;
-  background-color: ${({ theme }) => theme.bg0};
+  justify-self: start;
   width: fit-content;
   padding: 4px;
   border-radius: 16px;
@@ -228,7 +227,7 @@ const StyledNavLink = styled(NavLink).attrs({
     border-radius: 12px;
     font-weight: 600;
     color: ${({ theme }) => theme.text1};
-    background-color: ${({ theme }) => theme.bg2};
+    background-color: ${({ theme }) => theme.primary1};
   }
 
   :hover,
@@ -324,9 +323,9 @@ export default function Header() {
       </Modal>
       <HeaderRow>
         <Title href=".">
-          <UniIcon>
+          {/* <UniIcon>
             <img width={'24px'} src={darkMode ? LogoDark : Logo} alt="logo" />
-          </UniIcon>
+          </UniIcon> */}
         </Title>
       </HeaderRow>
       <HeaderLinks>
