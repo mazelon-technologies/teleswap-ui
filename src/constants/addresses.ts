@@ -1,4 +1,4 @@
-// import { FACTORY_ADDRESS as V2_FACTORY_ADDRESS } from '@uniswap/v2-sdk'
+import { FACTORY_ADDRESS as V2_FACTORY_ADDRESS } from '@mazelon/teleswap-sdk'
 import { FACTORY_ADDRESS as V3_FACTORY_ADDRESS } from '@uniswap/v3-sdk'
 import { constructSameAddressMap } from '../utils/constructSameAddressMap'
 import { SupportedChainId } from './chains'
@@ -9,14 +9,18 @@ export const UNI_ADDRESS: AddressMap = constructSameAddressMap('0x1f9840a85d5aF5
 // export const UNI_ADDRESS: AddressMap = constructSameAddressMap('0xdE31bCDBCfa603C0E4923b93811b828F1dE86356', false)
 
 export const MULTICALL2_ADDRESSES: AddressMap = {
-  ...constructSameAddressMap('0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696', false),
+  // ...constructSameAddressMap('0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696', false),
+  ...constructSameAddressMap('0x78B1f110FFCf7eD179bf1e146995bA65D6aAc11f', false),
   [SupportedChainId.ARBITRUM_KOVAN]: '0xc80e33a6f02cf08557a0ca3d94d1474d73f64bc1',
   [SupportedChainId.ARBITRUM_ONE]: '0x7262248e04a0917178b1ea8250fb2cad2cb00c2a',
 }
 export const V2_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(
-  '0x1eD4f76F9e4AA7a89a0D8182264dE423f1791825',
+  // '0x1eD4f76F9e4AA7a89a0D8182264dE423f1791825',
+  V2_FACTORY_ADDRESS,
   false
 )
+console.log(V2_FACTORY_ADDRESS, '99999999999999999')
+
 export const V2_ROUTER_ADDRESS: AddressMap = constructSameAddressMap(
   // '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',
   '0xc921b0176Bd8a0B270637589C6B53C245d1B1Ec1',
@@ -27,14 +31,14 @@ export const V2_ROUTER_ADDRESS: AddressMap = constructSameAddressMap(
 // only support governance on mainnet
 export const GOVERNANCE_ADDRESSES: AddressMap[] = [
   {
-    [SupportedChainId.MAINNET]: '0xC4e172459f1E7939D522503B81AFAaC1014CE6F6',
+    [SupportedChainId.MAINNET]: '0x8280AF4D9D68F04d734f86d6AcC51680B68eb3FD',
   },
   {
     [SupportedChainId.MAINNET]: '0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F',
   },
 ]
 export const TIMELOCK_ADDRESS: AddressMap = {
-  [SupportedChainId.MAINNET]: '0x1a9C8182C09F50C8318d769245beA52c32BE35BC',
+  [SupportedChainId.MAINNET]: '0xE94F9458cCc9b236e3e8D3a82Cf75c79404e9897',
 }
 
 export const MERKLE_DISTRIBUTOR_ADDRESS: AddressMap = {

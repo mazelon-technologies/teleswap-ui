@@ -22,7 +22,7 @@ import { CardSection, DataCard, CardNoise, CardBGImage } from '../../components/
 import { SwitchLocaleLink } from '../../components/SwitchLocaleLink'
 import { useStakingInfo } from '../../state/stake/hooks'
 import { BIG_INT_ZERO } from '../../constants/misc'
-import { Pair } from '@uniswap/v2-sdk'
+import { Pair } from '@mazelon/teleswap-sdk'
 import { Trans } from '@lingui/macro'
 
 const PageWrapper = styled(AutoColumn)`
