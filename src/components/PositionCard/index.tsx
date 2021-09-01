@@ -307,10 +307,7 @@ export default function FullPositionCard({ pair, border, stakedBalance }: Positi
             </FixedHeightRow>
 
             <ButtonSecondary padding="8px" borderRadius="8px">
-              <ExternalLink
-                style={{ width: '100%', textAlign: 'center' }}
-                href={`https://v2.info.uniswap.org/account/${account}`}
-              >
+              <ExternalLink style={{ width: '100%', textAlign: 'center' }} href={`https://telefy.finance/${account}`}>
                 <Trans>
                   View accrued fees and analytics<span style={{ fontSize: '11px' }}>↗</span>
                 </Trans>

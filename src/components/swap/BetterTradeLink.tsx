@@ -43,7 +43,7 @@ export default function BetterTradeLink({
   }, [location, search, version])
 
   return (
-    <ResponsiveButton as={Link} to={linkDestination}>
+    <ResponsiveButton style={{ display: 'none' }} as={Link} to={linkDestination}>
       <Zap size={12} style={{ marginRight: '0.25rem' }} />
       <HideSmall>
         <TYPE.small style={{ lineHeight: '120%' }} fontSize={12}>

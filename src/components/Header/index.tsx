@@ -330,12 +330,12 @@ export default function Header() {
         </Title>
       </HeaderRow>
       <HeaderLinks>
-        <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
+        <StyledNavLink id={`swap-nav-link`} to={'/swap?use=V2'}>
           <Trans>Swap</Trans>
         </StyledNavLink>
         <StyledNavLink
           id={`pool-nav-link`}
-          to={'/pool'}
+          to={'/pool/v2'}
           isActive={(match, { pathname }) =>
             Boolean(match) ||
             pathname.startsWith('/add') ||
