@@ -123,10 +123,10 @@ export default function CTACards() {
       <CTA1 href={'https://docs.uniswap.org/concepts/introduction/liquidity-user-guide'}>
         <ResponsiveColumn>
           <HeaderText>
-            <Trans>Uniswap V3 is here!</Trans>
+            <Trans>Telefy</Trans>
           </HeaderText>
           <TYPE.body fontWeight={300} style={{ alignItems: 'center', display: 'flex', maxWidth: '80%' }}>
-            <Trans>Check out our v3 LP walkthrough and migration guides.</Trans>
+            <Trans>Check out our Telefy LP walkthrough and migration guides.</Trans>
           </TYPE.body>
           <RowBetween align="flex-end">
             <HeaderText>↗</HeaderText>
@@ -140,7 +140,7 @@ export default function CTACards() {
             <Trans>Top pools</Trans>
           </HeaderText>
           <TYPE.body fontWeight={300} style={{ alignSelf: 'flex-start' }}>
-            <Trans>Explore popular pools on Uniswap Analytics.</Trans>
+            <Trans>Explore popular pools on Telefy Analytics.</Trans>
           </TYPE.body>
           <HeaderText style={{ alignSelf: 'flex-end' }}>↗</HeaderText>
         </ResponsiveColumn>

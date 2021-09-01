@@ -145,12 +145,12 @@ export default function Pool() {
               <RowBetween>
                 <TYPE.white fontSize={14}>
                   <Trans>
-                    Liquidity providers earn a 0.3% fee on all trades proportional to their share of the pool. Fees are
+                    Liquidity providers earn a 0.27% fee on all trades proportional to their share of the pool. Fees are
                     added to the pool, accrue in real time and can be claimed by withdrawing your liquidity.
                   </Trans>
                 </TYPE.white>
               </RowBetween>
-              <ExternalLink
+              {/* <ExternalLink
                 style={{ color: 'white', textDecoration: 'underline' }}
                 target="_blank"
                 href="https://uniswap.org/docs/v2/core-concepts/pools/"
@@ -158,7 +158,7 @@ export default function Pool() {
                 <TYPE.white fontSize={14}>
                   <Trans>Read more about providing liquidity</Trans>
                 </TYPE.white>
-              </ExternalLink>
+              </ExternalLink> */}
             </AutoColumn>
           </CardSection>
           <CardBGImage />
@@ -170,7 +170,7 @@ export default function Pool() {
             <TitleRow style={{ marginTop: '1rem' }} padding={'0'}>
               <HideSmall>
                 <TYPE.mediumHeader style={{ marginTop: '0.5rem', justifySelf: 'flex-start' }}>
-                  <Trans>Your V2 liquidity</Trans>
+                  <Trans>Your Telefy liquidity</Trans>
                 </TYPE.mediumHeader>
               </HideSmall>
               <ButtonRow>
@@ -184,7 +184,7 @@ export default function Pool() {
                 </ResponsiveButtonPrimary>
                 <ResponsiveButtonPrimary id="join-pool-button" as={Link} to="/add/v2/ETH" padding="6px 8px">
                   <Text fontWeight={500} fontSize={16}>
-                    <Trans>Add V2 Liquidity</Trans>
+                    <Trans>Add Telefy Liquidity</Trans>
                   </Text>
                 </ResponsiveButtonPrimary>
               </ButtonRow>
@@ -209,7 +209,7 @@ export default function Pool() {
                 <ButtonSecondary>
                   <RowBetween>
                     <Trans>
-                      <ExternalLink href={'https://v2.info.uniswap.org/account/' + account}>
+                      <ExternalLink href={'https://telefy.finance' + account}>
                         Account analytics and accrued fees
                       </ExternalLink>
                       <span> ↗ </span>
@@ -243,7 +243,7 @@ export default function Pool() {
                     }}
                   >
                     <ChevronsRight size={16} style={{ marginRight: '8px' }} />
-                    <Trans>Migrate Liquidity to V3</Trans>
+                    <Trans>Migrate Liquidity to Telefy</Trans>
                   </ButtonOutlined>
                 </RowFixed>
               </>

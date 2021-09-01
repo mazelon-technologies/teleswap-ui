@@ -377,7 +377,7 @@ function V2PairMigration({
     <AutoColumn gap="20px">
       <TYPE.body my={9} style={{ fontWeight: 400 }}>
         <Trans>
-          This tool will safely migrate your {isNotUniswap ? 'SushiSwap' : 'V2'} liquidity to V3. The process is
+          This tool will safely migrate your {isNotUniswap ? 'SushiSwap' : 'V2'} liquidity to Telefy. The process is
           completely trustless thanks to the{' '}
         </Trans>
         {chainId && migrator && (
@@ -713,7 +713,7 @@ export default function MigrateV2Pair({
         <AutoRow style={{ alignItems: 'center', justifyContent: 'space-between' }} gap="8px">
           <BackArrow to="/migrate/v2" />
           <TYPE.mediumHeader>
-            <Trans>Migrate V2 Liquidity</Trans>
+            <Trans>Migrate Telefy Liquidity</Trans>
           </TYPE.mediumHeader>
           <SettingsTab placeholderSlippage={DEFAULT_MIGRATE_SLIPPAGE_TOLERANCE} />
         </AutoRow>

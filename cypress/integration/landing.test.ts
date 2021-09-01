@@ -6,13 +6,13 @@ describe('Landing Page', () => {
     cy.get('#swap-page')
   })
 
-  it('redirects to url /swap', () => {
-    cy.url().should('include', '/swap')
+  it('redirects to url /swap?use=V2', () => {
+    cy.url().should('include', '/swap?use=V2')
   })
 
   it('allows navigation to pool', () => {
     cy.get('#pool-nav-link').click()
-    cy.url().should('include', '/pool')
+    cy.url().should('include', '/pool/v2')
   })
 
   it('is connected', () => {

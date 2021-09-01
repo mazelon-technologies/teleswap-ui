@@ -121,7 +121,7 @@ const InternalMenuItem = styled(Link)`
   }
 `
 
-const CODE_LINK = 'https://github.com/Uniswap/uniswap-interface'
+const CODE_LINK = '#'
 
 export default function Menu() {
   const { account } = useActiveWeb3React()
@@ -141,31 +141,31 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem href="https://uniswap.org/">
+          <MenuItem href="#">
             <Info size={14} />
             <div>
               <Trans>About</Trans>
             </div>
           </MenuItem>
-          <MenuItem href="https://docs.uniswap.org/">
+          <MenuItem href="#">
             <BookOpen size={14} />
             <div>
               <Trans>Docs</Trans>
             </div>
           </MenuItem>
-          <MenuItem href={CODE_LINK}>
+          <MenuItem href="#">
             <Code size={14} />
             <div>
               <Trans>Code</Trans>
             </div>
           </MenuItem>
-          <MenuItem href="https://discord.gg/FCfyBSbCU5">
+          <MenuItem href="#">
             <MessageCircle size={14} />
             <div>
               <Trans>Discord</Trans>
             </div>
           </MenuItem>
-          <MenuItem href="https://info.uniswap.org/">
+          <MenuItem href="#">
             <PieChart size={14} />
             <div>
               <Trans>Analytics</Trans>
