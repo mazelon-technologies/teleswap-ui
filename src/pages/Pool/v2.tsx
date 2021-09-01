@@ -170,7 +170,7 @@ export default function Pool() {
             <TitleRow style={{ marginTop: '1rem' }} padding={'0'}>
               <HideSmall>
                 <TYPE.mediumHeader style={{ marginTop: '0.5rem', justifySelf: 'flex-start' }}>
-                  <Trans>Your V2 liquidity</Trans>
+                  <Trans>Your Telefy liquidity</Trans>
                 </TYPE.mediumHeader>
               </HideSmall>
               <ButtonRow>
@@ -184,7 +184,7 @@ export default function Pool() {
                 </ResponsiveButtonPrimary>
                 <ResponsiveButtonPrimary id="join-pool-button" as={Link} to="/add/v2/ETH" padding="6px 8px">
                   <Text fontWeight={500} fontSize={16}>
-                    <Trans>Add V2 Liquidity</Trans>
+                    <Trans>Add Telefy Liquidity</Trans>
                   </Text>
                 </ResponsiveButtonPrimary>
               </ButtonRow>
@@ -243,7 +243,7 @@ export default function Pool() {
                     }}
                   >
                     <ChevronsRight size={16} style={{ marginRight: '8px' }} />
-                    <Trans>Migrate Liquidity to V3</Trans>
+                    <Trans>Migrate Liquidity to Telefy</Trans>
                   </ButtonOutlined>
                 </RowFixed>
               </>

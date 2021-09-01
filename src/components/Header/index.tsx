@@ -11,8 +11,8 @@ import { useUserHasSubmittedClaim } from 'state/transactions/hooks'
 import { useDarkModeManager } from 'state/user/hooks'
 import { useETHBalances } from 'state/wallet/hooks'
 import styled from 'styled-components/macro'
-import Logo from '../../assets/svg/logo.svg'
-import LogoDark from '../../assets/svg/logo_white.svg'
+import Logo from '../../assets/svg/telefy.svg'
+import LogoDark from '../../assets/svg/telefy-dark1.svg'
 import { NETWORK_LABELS, SupportedChainId } from '../../constants/chains'
 import { useActiveWeb3React } from '../../hooks/web3'
 import { ExternalLink, TYPE } from '../../theme'
@@ -110,6 +110,7 @@ const HeaderRow = styled(RowFixed)`
 const HeaderLinks = styled(Row)`
   justify-self: start;
   width: fit-content;
+  margin: 0 4rem;
   padding: 4px;
   border-radius: 16px;
   display: grid;
@@ -227,7 +228,7 @@ const StyledNavLink = styled(NavLink).attrs({
     border-radius: 12px;
     font-weight: 600;
     color: ${({ theme }) => theme.text1};
-    background-color: ${({ theme }) => theme.primary1};
+    box-shadow: 0px 2px 0px 1px ${({ theme }) => theme.primary1};
   }
 
   :hover,
@@ -323,9 +324,9 @@ export default function Header() {
       </Modal>
       <HeaderRow>
         <Title href=".">
-          {/* <UniIcon>
-            <img width={'24px'} src={darkMode ? LogoDark : Logo} alt="logo" />
-          </UniIcon> */}
+          <UniIcon>
+            <img width={'120px'} src={darkMode ? LogoDark : Logo} alt="logo" />
+          </UniIcon>
         </Title>
       </HeaderRow>
       <HeaderLinks>
@@ -345,13 +346,13 @@ export default function Header() {
         >
           <Trans>Pool</Trans>
         </StyledNavLink>
-        <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
+        {/* <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
           <Trans>Vote</Trans>
         </StyledNavLink>
         <StyledExternalLink id={`stake-nav-link`} href={'https://info.uniswap.org'}>
           <Trans>Charts</Trans>
           <sup>↗</sup>
-        </StyledExternalLink>
+        </StyledExternalLink> */}
       </HeaderLinks>
       <HeaderControls>
         <HeaderElement>
