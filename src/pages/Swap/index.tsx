@@ -117,7 +117,6 @@ export default function Swap({ history }: RouteComponentProps) {
     currencies,
     inputError: swapInputError,
   } = useDerivedSwapInfo(toggledVersion)
-  console.log(trade, 'trade')
 
   const {
     wrapType,

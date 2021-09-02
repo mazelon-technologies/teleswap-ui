@@ -9,8 +9,8 @@ export const UNI_ADDRESS: AddressMap = constructSameAddressMap('0x1f9840a85d5aF5
 // export const UNI_ADDRESS: AddressMap = constructSameAddressMap('0xdE31bCDBCfa603C0E4923b93811b828F1dE86356', false)
 
 export const MULTICALL2_ADDRESSES: AddressMap = {
-  // ...constructSameAddressMap('0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696', false),
-  ...constructSameAddressMap('0x78B1f110FFCf7eD179bf1e146995bA65D6aAc11f', false),
+  ...constructSameAddressMap('0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696', false),
+  // ...constructSameAddressMap('0x78B1f110FFCf7eD179bf1e146995bA65D6aAc11f', false),
   [SupportedChainId.ARBITRUM_KOVAN]: '0xc80e33a6f02cf08557a0ca3d94d1474d73f64bc1',
   [SupportedChainId.ARBITRUM_ONE]: '0x7262248e04a0917178b1ea8250fb2cad2cb00c2a',
 }
