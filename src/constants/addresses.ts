@@ -19,11 +19,11 @@ export const V2_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(
   V2_FACTORY_ADDRESS,
   false
 )
-console.log(V2_FACTORY_ADDRESS, '99999999999999999')
+// console.log(V2_FACTORY_ADDRESS, '99999999999999999')
 
 export const V2_ROUTER_ADDRESS: AddressMap = constructSameAddressMap(
   // '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D',
-  '0xc921b0176Bd8a0B270637589C6B53C245d1B1Ec1',
+  '0x43A5D560D7e6d7c09fb3903224616607Ad45864A',
   false
 )
 
