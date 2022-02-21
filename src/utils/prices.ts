@@ -21,12 +21,10 @@ export function computeRealizedLPFeePercent(
   if (trade instanceof V2Trade) {
     // for each hop in our trade, take away the x*y=k price impact from 0.3% fees
     // e.g. for 3 tokens/2 hops: 1 - ((1 - .03) * (1-.03))
-    percent = ONE_HUNDRED_PERCENT.subtract(
-      trade.route.pairs.reduce<Percent>(
-        (currentFee: Percent): Percent => currentFee.multiply(INPUT_FRACTION_AFTER_FEE),
-        ONE_HUNDRED_PERCENT
-      )
-    )
+    const pp = trade.route.pairs.reduce<Percent>((currentFee: Percent): Percent => {
+      return currentFee.multiply(INPUT_FRACTION_AFTER_FEE)
+    }, ONE_HUNDRED_PERCENT)
+    percent = ONE_HUNDRED_PERCENT.subtract(pp)
   } else {
     percent = ONE_HUNDRED_PERCENT.subtract(
       trade.route.pools.reduce<Percent>(
