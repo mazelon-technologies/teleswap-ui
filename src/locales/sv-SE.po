@@ -223,8 +223,8 @@ msgid "Amount"
 msgstr "Belopp"
 
 #: src/hooks/useSwapCallback.ts
-msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Ett fel uppstod när denna swap skulle genomföras. Du kan behöva öka din toleransmarginal. Om det inte fungerar kan det finnas en oförenlighet med den token du handlar. Kom ihåg att avgifter för överföring och rebase tokens är oförenliga med Uniswap V3."
+msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note fee on transfer and rebase tokens are incompatible with Telefy."
+msgstr "Ett fel uppstod när denna swap skulle genomföras. Du kan behöva öka din toleransmarginal. Om det inte fungerar kan det finnas en oförenlighet med den token du handlar. Kom ihåg att avgifter för överföring och rebase tokens är oförenliga med Telefy."
 
 #: src/components/Menu/index.tsx
 msgid "Analytics"
@@ -573,8 +573,8 @@ msgid "Deposit Amounts"
 msgstr "Insättningsbelopp"
 
 #: src/pages/Earn/Manage.tsx
-msgid "Deposit UNI-V2 LP Tokens"
-msgstr "Sätt in UNI-V2 LP-tokens"
+msgid "Deposit TEL-LP LP Tokens"
+msgstr "Sätt in TEL-LP LP-tokens"
 
 #: src/components/earn/StakingModal.tsx
 msgid "Deposit liquidity"
@@ -589,8 +589,8 @@ msgid "Deposited liquidity:"
 msgstr "Insatt likviditet:"
 
 #: src/components/earn/StakingModal.tsx
-msgid "Deposited {0} UNI-V2"
-msgstr "Insatt {0} UNI-V2"
+msgid "Deposited {0} TEL-LP"
+msgstr "Insatt {0} TEL-LP"
 
 #: src/components/earn/StakingModal.tsx
 msgid "Depositing Liquidity"
@@ -710,8 +710,8 @@ msgid "For"
 msgstr "För"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "For each pool shown below, click migrate to remove your liquidity from Uniswap V2 and deposit it into Uniswap V3."
-msgstr "För varje pool som visas nedan, klicka på migrera för att ta bort din likviditet från Uniswap V2 och deponera den i Uniswap V3."
+msgid "For each pool shown below, click migrate to remove your liquidity from Telefy and deposit it into Telefy."
+msgstr "För varje pool som visas nedan, klicka på migrera för att ta bort din likviditet från Telefy och deponera den i Telefy."
 
 #: src/components/swap/SwapModalHeader.tsx
 #: src/pages/Swap/index.tsx
@@ -943,8 +943,8 @@ msgid "Migrate V2 liquidity"
 msgstr "Migrera V2-likviditet"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "Migrate your liquidity tokens from Uniswap V2 to Uniswap V3."
-msgstr "Migrera dina likviditetstoken från Uniswap V2 till Uniswap V3."
+msgid "Migrate your liquidity tokens from Telefy to Telefy."
+msgstr "Migrera dina likviditetstoken från Telefy till Telefy."
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Migrating"
@@ -1302,8 +1302,8 @@ msgid "Something went wrong"
 msgstr "Något gick snett"
 
 #: src/pages/Earn/Manage.tsx
-msgid "Step 1. Get UNI-V2 Liquidity tokens"
-msgstr "Steg 1. Få UNI-V2 likviditetstokens"
+msgid "Step 1. Get TEL-LP Liquidity tokens"
+msgstr "Steg 1. Få TEL-LP likviditetstokens"
 
 #: src/components/vote/VoteModal.tsx
 msgid "Submitting Vote"
@@ -1355,8 +1355,8 @@ msgid "The output token cannot be transferred. There may be an issue with the ou
 msgstr "Utmatningstoken kan inte överföras. Det kan finnas ett problem med utmatningtoken."
 
 #: src/hooks/useSwapCallback.ts
-msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Utmatningstoken kan inte överföras. Det kan finnas ett problem med utmatningtoken. Obs att avgifter för överföring och rebase-tokens är oförenliga med Uniswap V3."
+msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Telefy."
+msgstr "Utmatningstoken kan inte överföras. Det kan finnas ett problem med utmatningtoken. Obs att avgifter för överföring och rebase-tokens är oförenliga med Telefy."
 
 #: src/components/Badge/RangeBadge.tsx
 msgid "The price of this pool is outside of your selected range. Your position is not currently earning fees."
@@ -1387,8 +1387,8 @@ msgid "This tool will safely migrate your {0} liquidity to V3. The process is co
 msgstr "Detta verktyg migrerar säkert din {0} likviditet till V3. Processen är helt pålitlig tack vare"
 
 #: src/hooks/useSwapCallback.ts
-msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Denna transaktion kommer inte att lyckas på grund av prisrörelser. Försök öka din toleransmarginal. Obs att avgifter vid överföring och rebase-tokens är oförenliga med Uniswap V3."
+msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Telefy."
+msgstr "Denna transaktion kommer inte att lyckas på grund av prisrörelser. Försök öka din toleransmarginal. Obs att avgifter vid överföring och rebase-tokens är oförenliga med Telefy."
 
 #: src/hooks/useSwapCallback.ts
 msgid "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance."
@@ -1481,12 +1481,12 @@ msgid "UNI {0}/{1} Burned"
 msgstr "UNI {0}/{1} bränd"
 
 #: src/pages/Earn/Manage.tsx
-msgid "UNI-V2 LP tokens are required. Once you've added liquidity to the {0}-{1} pool you can stake your liquidity tokens on this page."
-msgstr "UNI-V2 LP-tokens krävs. När du har lagt till likviditet till {0}-{1} poolen kan du satsa dina likviditetstoken på denna sida."
+msgid "TEL-LP LP tokens are required. Once you've added liquidity to the {0}-{1} pool you can stake your liquidity tokens on this page."
+msgstr "TEL-LP LP-tokens krävs. När du har lagt till likviditet till {0}-{1} poolen kan du satsa dina likviditetstoken på denna sida."
 
 #: src/pages/Earn/Manage.tsx
-msgid "UNI-V2 {0}-{1}"
-msgstr "UNI-V2 {0}-{1}"
+msgid "TEL-LP {0}-{1}"
+msgstr "TEL-LP {0}-{1}"
 
 #: src/components/earn/ClaimRewardModal.tsx
 #: src/components/earn/UnstakingModal.tsx
@@ -1506,8 +1506,8 @@ msgid "Uniswap Governance"
 msgstr "Uniswap-styrning"
 
 #: src/pages/Pool/CTACards.tsx
-msgid "Uniswap V3 is here!"
-msgstr "Uniswap V3 är här!"
+msgid "Telefy is here!"
+msgstr "Telefy är här!"
 
 #: src/components/SwitchLocaleLink/index.tsx
 msgid "Uniswap available in: <0>{0}</0>"
@@ -1526,8 +1526,8 @@ msgid "Unknown Source"
 msgstr "Okänd källa"
 
 #: src/hooks/useSwapCallback.ts
-msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Okänt fel{0}. Försök öka din toleransmarginal. Obs att avgifter vid överföring och rebase-tokens är oförenliga med Uniswap V3."
+msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Telefy."
+msgstr "Okänt fel{0}. Försök öka din toleransmarginal. Obs att avgifter vid överföring och rebase-tokens är oförenliga med Telefy."
 
 #: src/pages/Vote/VotePage.tsx
 #: src/pages/Vote/index.tsx
@@ -1679,12 +1679,12 @@ msgid "Withdraw deposited liquidity"
 msgstr "Ta ut insatt likviditet"
 
 #: src/components/earn/UnstakingModal.tsx
-msgid "Withdrawing {0} UNI-V2"
-msgstr "Tar ut {0} UNI-V2"
+msgid "Withdrawing {0} TEL-LP"
+msgstr "Tar ut {0} TEL-LP"
 
 #: src/components/earn/UnstakingModal.tsx
-msgid "Withdrew UNI-V2!"
-msgstr "Tog ut UNI-V2!"
+msgid "Withdrew TEL-LP!"
+msgstr "Tog ut TEL-LP!"
 
 #: src/pages/Swap/index.tsx
 msgid "Wrap"
@@ -1700,8 +1700,8 @@ msgid "You are creating a pool"
 msgstr "Du skapar en pool"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You are the first liquidity provider for this Uniswap V3 pool. Your liquidity will migrate at the current {0} price."
-msgstr "Du är den första likviditetsleverantören för denna Uniswap V3-pool. Din likviditet kommer att migrera till nuvarande {0} pris."
+msgid "You are the first liquidity provider for this Telefy pool. Your liquidity will migrate at the current {0} price."
+msgstr "Du är den första likviditetsleverantören för denna Telefy-pool. Din likviditet kommer att migrera till nuvarande {0} pris."
 
 #: src/pages/AddLiquidityV2/index.tsx
 msgid "You are the first liquidity provider."
@@ -1728,8 +1728,8 @@ msgid "You must give the Uniswap smart contracts permission to use your {0}. You
 msgstr "Du måste ge Uniswaps smarta kontrakt tillstånd att använda din {0}. Du behöver bara göra detta en gång per token."
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You should only deposit liquidity into Uniswap V3 at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
-msgstr "Du bör endast sätta in likviditet i Uniswap V3 till ett pris som du anser är korrekt. <0/>Om priset verkar felaktigt, kan du antingen göra ett byte för att ändra priset eller vänta på att någon annan gör det."
+msgid "You should only deposit liquidity into Telefy at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
+msgstr "Du bör endast sätta in likviditet i Telefy till ett pris som du anser är korrekt. <0/>Om priset verkar felaktigt, kan du antingen göra ett byte för att ändra priset eller vänta på att någon annan gör det."
 
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "You will also collect fees earned from this position."
@@ -1915,12 +1915,12 @@ msgid "{0} UNI / week"
 msgstr "{0} UNI/vecka"
 
 #: src/components/earn/StakingModal.tsx
-msgid "{0} UNI-V2"
-msgstr "{0} UNI-V2"
+msgid "{0} TEL-LP"
+msgstr "{0} TEL-LP"
 
 #: src/pages/Earn/Manage.tsx
-msgid "{0} UNI-V2 LP tokens available"
-msgstr "{0} UNI-V2 LP-tokens tillgängliga"
+msgid "{0} TEL-LP LP tokens available"
+msgstr "{0} TEL-LP LP-tokens tillgängliga"
 
 #: src/components/vote/VoteModal.tsx
 msgid "{0} Votes"

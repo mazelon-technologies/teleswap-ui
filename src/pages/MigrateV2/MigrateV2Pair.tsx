@@ -377,7 +377,7 @@ function V2PairMigration({
     <AutoColumn gap="20px">
       <TYPE.body my={9} style={{ fontWeight: 400 }}>
         <Trans>
-          This tool will safely migrate your {isNotUniswap ? 'SushiSwap' : 'V2'} liquidity to V3. The process is
+          This tool will safely migrate your {isNotUniswap ? 'SushiSwap' : 'V2'} liquidity to Telefy. The process is
           completely trustless thanks to the{' '}
         </Trans>
         {chainId && migrator && (
@@ -431,8 +431,8 @@ function V2PairMigration({
               <AlertCircle color={theme.text1} style={{ marginBottom: '12px', opacity: 0.8 }} />
               <TYPE.body fontSize={14} style={{ marginBottom: 8, fontWeight: 500, opacity: 0.8 }} textAlign="center">
                 <Trans>
-                  You are the first liquidity provider for this Uniswap V3 pool. Your liquidity will migrate at the
-                  current {isNotUniswap ? 'SushiSwap' : 'V2'} price.
+                  You are the first liquidity provider for this Telefy pool. Your liquidity will migrate at the current{' '}
+                  {isNotUniswap ? 'SushiSwap' : 'V2'} price.
                 </Trans>
               </TYPE.body>
 
@@ -495,7 +495,7 @@ function V2PairMigration({
               </AutoColumn>
               <TYPE.body fontSize={14} style={{ marginTop: 8, fontWeight: 400 }}>
                 <Trans>
-                  You should only deposit liquidity into Uniswap V3 at a price you believe is correct. <br />
+                  You should only deposit liquidity into Telefy at a price you believe is correct. <br />
                   If the price seems incorrect, you can either make a swap to move the price or wait for someone else to
                   do so.
                 </Trans>
@@ -713,7 +713,7 @@ export default function MigrateV2Pair({
         <AutoRow style={{ alignItems: 'center', justifyContent: 'space-between' }} gap="8px">
           <BackArrow to="/migrate/v2" />
           <TYPE.mediumHeader>
-            <Trans>Migrate V2 Liquidity</Trans>
+            <Trans>Migrate Telefy Liquidity</Trans>
           </TYPE.mediumHeader>
           <SettingsTab placeholderSlippage={DEFAULT_MIGRATE_SLIPPAGE_TOLERANCE} />
         </AutoRow>

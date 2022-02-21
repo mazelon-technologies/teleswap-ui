@@ -1,6 +1,6 @@
 import { Trans } from '@lingui/macro'
 import { Currency, CurrencyAmount, Token, TradeType } from '@uniswap/sdk-core'
-import { Trade as V2Trade } from '@uniswap/v2-sdk'
+import { Trade as V2Trade } from '@mazelon/teleswap-sdk'
 import { Trade as V3Trade } from '@uniswap/v3-sdk'
 import { AdvancedSwapDetails } from 'components/swap/AdvancedSwapDetails'
 import UnsupportedCurrencyFooter from 'components/swap/UnsupportedCurrencyFooter'
@@ -209,9 +209,9 @@ export default function Swap({ history }: RouteComponentProps) {
         await gatherPermitSignature()
       } catch (error) {
         // try to approve if gatherPermitSignature failed for any reason other than the user rejecting it
-        if (error?.code !== 4001) {
-          await approveCallback()
-        }
+        //if (error?.code !== 4001) {
+        await approveCallback()
+        //}
       }
     } else {
       await approveCallback()
@@ -460,7 +460,7 @@ export default function Swap({ history }: RouteComponentProps) {
                           <TYPE.main style={{ lineHeight: '120%' }} fontSize={12}>
                             <Trans>
                               <HideSmall>Back to </HideSmall>
-                              V3
+                              Telefy
                             </Trans>
                           </TYPE.main>
                         </ButtonGray>
@@ -481,7 +481,7 @@ export default function Swap({ history }: RouteComponentProps) {
                       }}
                     >
                       <TYPE.black fontSize={12}>
-                        <Trans>V3</Trans>
+                        <Trans>Telefy</Trans>
                       </TYPE.black>
                     </ButtonGray>
                   )}
@@ -564,7 +564,7 @@ export default function Swap({ history }: RouteComponentProps) {
                           {approvalState === ApprovalState.APPROVED || signatureState === UseERC20PermitState.SIGNED ? (
                             <Trans>You can now trade {currencies[Field.INPUT]?.symbol}</Trans>
                           ) : (
-                            <Trans>Allow the Uniswap Protocol to use your {currencies[Field.INPUT]?.symbol}</Trans>
+                            <Trans>Allow the Telefy Protocol to use your {currencies[Field.INPUT]?.symbol}</Trans>
                           )}
                         </span>
                         {approvalState === ApprovalState.PENDING ? (
@@ -576,7 +576,7 @@ export default function Swap({ history }: RouteComponentProps) {
                           <MouseoverTooltip
                             text={
                               <Trans>
-                                You must give the Uniswap smart contracts permission to use your{' '}
+                                You must give the Telefy smart contracts permission to use your{' '}
                                 {currencies[Field.INPUT]?.symbol}. You only have to do this once per token.
                               </Trans>
                             }

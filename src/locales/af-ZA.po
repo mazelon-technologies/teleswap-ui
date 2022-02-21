@@ -223,8 +223,8 @@ msgid "Amount"
 msgstr "Bedrag"
 
 #: src/hooks/useSwapCallback.ts
-msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "'n Fout het voorgekom tydens die uitvoer van hierdie ruil. U moet dalk u glyverdraagsaamheid verhoog. As dit nie werk nie, is daar moontlik 'n onverenigbaarheid met die teken wat u verhandel. Nota-fooi vir oordrag- en rebase-tekens is nie versoenbaar met Uniswap V3 nie."
+msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note fee on transfer and rebase tokens are incompatible with Telefy."
+msgstr "'n Fout het voorgekom tydens die uitvoer van hierdie ruil. U moet dalk u glyverdraagsaamheid verhoog. As dit nie werk nie, is daar moontlik 'n onverenigbaarheid met die teken wat u verhandel. Nota-fooi vir oordrag- en rebase-tekens is nie versoenbaar met Telefy nie."
 
 #: src/components/Menu/index.tsx
 msgid "Analytics"
@@ -573,8 +573,8 @@ msgid "Deposit Amounts"
 msgstr "Depositobedrae"
 
 #: src/pages/Earn/Manage.tsx
-msgid "Deposit UNI-V2 LP Tokens"
-msgstr "Plaas UNI-V2 LP-tekens"
+msgid "Deposit TEL-LP LP Tokens"
+msgstr "Plaas TEL-LP LP-tekens"
 
 #: src/components/earn/StakingModal.tsx
 msgid "Deposit liquidity"
@@ -589,8 +589,8 @@ msgid "Deposited liquidity:"
 msgstr "Gedeponeerde likiditeit:"
 
 #: src/components/earn/StakingModal.tsx
-msgid "Deposited {0} UNI-V2"
-msgstr "Deponeer {0} UNI-V2"
+msgid "Deposited {0} TEL-LP"
+msgstr "Deponeer {0} TEL-LP"
 
 #: src/components/earn/StakingModal.tsx
 msgid "Depositing Liquidity"
@@ -710,8 +710,8 @@ msgid "For"
 msgstr "Vir"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "For each pool shown below, click migrate to remove your liquidity from Uniswap V2 and deposit it into Uniswap V3."
-msgstr "Klik op migreer vir elke poel hieronder om u likiditeit uit Uniswap V2 te verwyder en dit in Uniswap V3 te deponeer."
+msgid "For each pool shown below, click migrate to remove your liquidity from Telefy and deposit it into Telefy."
+msgstr "Klik op migreer vir elke poel hieronder om u likiditeit uit Telefy te verwyder en dit in Telefy te deponeer."
 
 #: src/components/swap/SwapModalHeader.tsx
 #: src/pages/Swap/index.tsx
@@ -943,8 +943,8 @@ msgid "Migrate V2 liquidity"
 msgstr "Migreer V2-likiditeit"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "Migrate your liquidity tokens from Uniswap V2 to Uniswap V3."
-msgstr "Migreer u likiditeitsteken van Uniswap V2 na Uniswap V3."
+msgid "Migrate your liquidity tokens from Telefy to Telefy."
+msgstr "Migreer u likiditeitsteken van Telefy na Telefy."
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Migrating"
@@ -1302,8 +1302,8 @@ msgid "Something went wrong"
 msgstr "Iets het verkeerd geloop"
 
 #: src/pages/Earn/Manage.tsx
-msgid "Step 1. Get UNI-V2 Liquidity tokens"
-msgstr "Stap 1. Kry UNI-V2 likiditeitstekens"
+msgid "Step 1. Get TEL-LP Liquidity tokens"
+msgstr "Stap 1. Kry TEL-LP likiditeitstekens"
 
 #: src/components/vote/VoteModal.tsx
 msgid "Submitting Vote"
@@ -1355,8 +1355,8 @@ msgid "The output token cannot be transferred. There may be an issue with the ou
 msgstr "Die uitvoer-teken kan nie oorgedra word nie. Daar kan 'n probleem wees met die uitvoer-teken."
 
 #: src/hooks/useSwapCallback.ts
-msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Die uitvoer-teken kan nie oorgedra word nie. Daar is 'n probleem met die uitvoer-teken. Opmerking: fooi vir oordrag en herbasis-tekens is nie versoenbaar met Uniswap V3 nie."
+msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Telefy."
+msgstr "Die uitvoer-teken kan nie oorgedra word nie. Daar is 'n probleem met die uitvoer-teken. Opmerking: fooi vir oordrag en herbasis-tekens is nie versoenbaar met Telefy nie."
 
 #: src/components/Badge/RangeBadge.tsx
 msgid "The price of this pool is outside of your selected range. Your position is not currently earning fees."
@@ -1387,8 +1387,8 @@ msgid "This tool will safely migrate your {0} liquidity to V3. The process is co
 msgstr "Hierdie instrument sal u {0} likiditeit veilig na V3 migreer. Die proses is heeltemal vertroulik danksy die"
 
 #: src/hooks/useSwapCallback.ts
-msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Hierdie transaksie sal weens die prysbeweging nie slaag nie. Probeer u glyverdraagsaamheid verhoog. Opmerking: fooi vir oordrag en herbasis-tekens is nie versoenbaar met Uniswap V3 nie."
+msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Telefy."
+msgstr "Hierdie transaksie sal weens die prysbeweging nie slaag nie. Probeer u glyverdraagsaamheid verhoog. Opmerking: fooi vir oordrag en herbasis-tekens is nie versoenbaar met Telefy nie."
 
 #: src/hooks/useSwapCallback.ts
 msgid "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance."
@@ -1481,12 +1481,12 @@ msgid "UNI {0}/{1} Burned"
 msgstr "UNI {0}/{1} Verbrand"
 
 #: src/pages/Earn/Manage.tsx
-msgid "UNI-V2 LP tokens are required. Once you've added liquidity to the {0}-{1} pool you can stake your liquidity tokens on this page."
-msgstr "UNI-V2 LP-tekens word vereis. Nadat u likiditeit by die {0}-{1} poel gevoeg het, kan u u likiditeitsteken op hierdie bladsy insit."
+msgid "TEL-LP LP tokens are required. Once you've added liquidity to the {0}-{1} pool you can stake your liquidity tokens on this page."
+msgstr "TEL-LP LP-tekens word vereis. Nadat u likiditeit by die {0}-{1} poel gevoeg het, kan u u likiditeitsteken op hierdie bladsy insit."
 
 #: src/pages/Earn/Manage.tsx
-msgid "UNI-V2 {0}-{1}"
-msgstr "UNI-V2 {0}-{1}"
+msgid "TEL-LP {0}-{1}"
+msgstr "TEL-LP {0}-{1}"
 
 #: src/components/earn/ClaimRewardModal.tsx
 #: src/components/earn/UnstakingModal.tsx
@@ -1506,8 +1506,8 @@ msgid "Uniswap Governance"
 msgstr "Onttrek bestuur"
 
 #: src/pages/Pool/CTACards.tsx
-msgid "Uniswap V3 is here!"
-msgstr "Uniswap V3 is hier!"
+msgid "Telefy is here!"
+msgstr "Telefy is hier!"
 
 #: src/components/SwitchLocaleLink/index.tsx
 msgid "Uniswap available in: <0>{0}</0>"
@@ -1526,8 +1526,8 @@ msgid "Unknown Source"
 msgstr "Onbekende bron"
 
 #: src/hooks/useSwapCallback.ts
-msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Onbekende fout{0}. Probeer u glyverdraagsaamheid verhoog. Opmerking: fooi vir oordrag en herbasis-tekens is nie versoenbaar met Uniswap V3 nie."
+msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Telefy."
+msgstr "Onbekende fout{0}. Probeer u glyverdraagsaamheid verhoog. Opmerking: fooi vir oordrag en herbasis-tekens is nie versoenbaar met Telefy nie."
 
 #: src/pages/Vote/VotePage.tsx
 #: src/pages/Vote/index.tsx
@@ -1679,12 +1679,12 @@ msgid "Withdraw deposited liquidity"
 msgstr "Onttrek gedeponeerde likiditeit"
 
 #: src/components/earn/UnstakingModal.tsx
-msgid "Withdrawing {0} UNI-V2"
-msgstr "Onttrek {0} UNI-V2"
+msgid "Withdrawing {0} TEL-LP"
+msgstr "Onttrek {0} TEL-LP"
 
 #: src/components/earn/UnstakingModal.tsx
-msgid "Withdrew UNI-V2!"
-msgstr "UNI-V2 onttrek!"
+msgid "Withdrew TEL-LP!"
+msgstr "TEL-LP onttrek!"
 
 #: src/pages/Swap/index.tsx
 msgid "Wrap"
@@ -1700,8 +1700,8 @@ msgid "You are creating a pool"
 msgstr "U skep 'n poel"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You are the first liquidity provider for this Uniswap V3 pool. Your liquidity will migrate at the current {0} price."
-msgstr "U is die eerste likiditeitsverskaffer vir hierdie Uniswap V3-poel. U likiditeit sal teen die huidige {0} prys migreer."
+msgid "You are the first liquidity provider for this Telefy pool. Your liquidity will migrate at the current {0} price."
+msgstr "U is die eerste likiditeitsverskaffer vir hierdie Telefy-poel. U likiditeit sal teen die huidige {0} prys migreer."
 
 #: src/pages/AddLiquidityV2/index.tsx
 msgid "You are the first liquidity provider."
@@ -1728,8 +1728,8 @@ msgid "You must give the Uniswap smart contracts permission to use your {0}. You
 msgstr "U moet die Uniswap-slimkontrakte toestemming gee om u {0}te gebruik. U hoef dit slegs een keer per teken te doen."
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You should only deposit liquidity into Uniswap V3 at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
-msgstr "U moet slegs likiditeit in Uniswap V3 deponeer teen 'n prys wat volgens u korrek is. <0 /> As die prys verkeerd lyk, kan u ruil om die prys te skuif, of wag tot iemand anders dit doen."
+msgid "You should only deposit liquidity into Telefy at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
+msgstr "U moet slegs likiditeit in Telefy deponeer teen 'n prys wat volgens u korrek is. <0 /> As die prys verkeerd lyk, kan u ruil om die prys te skuif, of wag tot iemand anders dit doen."
 
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "You will also collect fees earned from this position."
@@ -1915,12 +1915,12 @@ msgid "{0} UNI / week"
 msgstr "{0} UNI / week"
 
 #: src/components/earn/StakingModal.tsx
-msgid "{0} UNI-V2"
-msgstr "{0} UNI-V2"
+msgid "{0} TEL-LP"
+msgstr "{0} TEL-LP"
 
 #: src/pages/Earn/Manage.tsx
-msgid "{0} UNI-V2 LP tokens available"
-msgstr "{0} UNI-V2 LP tekens beskikbaar"
+msgid "{0} TEL-LP LP tokens available"
+msgstr "{0} TEL-LP LP tekens beskikbaar"
 
 #: src/components/vote/VoteModal.tsx
 msgid "{0} Votes"

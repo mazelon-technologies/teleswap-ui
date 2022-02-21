@@ -10,7 +10,7 @@ import { TYPE, CloseIcon } from '../../theme'
 import { ButtonConfirmed, ButtonError } from '../Button'
 import ProgressCircles from '../ProgressSteps'
 import CurrencyInputPanel from '../CurrencyInputPanel'
-import { Pair } from '@uniswap/v2-sdk'
+import { Pair } from '@mazelon/teleswap-sdk'
 import { Token, CurrencyAmount } from '@uniswap/sdk-core'
 import { useActiveWeb3React } from '../../hooks/web3'
 import { maxAmountSpend } from '../../utils/maxAmountSpend'
@@ -216,7 +216,7 @@ export default function StakingModal({ isOpen, onDismiss, stakingInfo, userLiqui
               <Trans>Depositing Liquidity</Trans>
             </TYPE.largeHeader>
             <TYPE.body fontSize={20}>
-              <Trans>{parsedAmount?.toSignificant(4)} UNI-V2</Trans>
+              <Trans>{parsedAmount?.toSignificant(4)} TEL-LP</Trans>
             </TYPE.body>
           </AutoColumn>
         </LoadingView>
@@ -228,7 +228,7 @@ export default function StakingModal({ isOpen, onDismiss, stakingInfo, userLiqui
               <Trans>Transaction Submitted</Trans>
             </TYPE.largeHeader>
             <TYPE.body fontSize={20}>
-              <Trans>Deposited {parsedAmount?.toSignificant(4)} UNI-V2</Trans>
+              <Trans>Deposited {parsedAmount?.toSignificant(4)} TEL-LP</Trans>
             </TYPE.body>
           </AutoColumn>
         </SubmittedView>

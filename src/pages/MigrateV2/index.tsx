@@ -1,5 +1,5 @@
 import React, { ReactNode, useContext, useMemo } from 'react'
-import { Pair } from '@uniswap/v2-sdk'
+import { Pair } from '@mazelon/teleswap-sdk'
 import { Token } from '@uniswap/sdk-core'
 import { ThemeContext } from 'styled-components'
 import { AutoColumn } from '../../components/Column'
@@ -34,7 +34,7 @@ function EmptyState({ message }: { message: ReactNode }) {
 const computeSushiPairAddress = ({ tokenA, tokenB }: { tokenA: Token; tokenB: Token }): string => {
   const [token0, token1] = tokenA.sortsBefore(tokenB) ? [tokenA, tokenB] : [tokenB, tokenA] // does safety checks
   return getCreate2Address(
-    '0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac',
+    '0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac1',
     keccak256(['bytes'], [pack(['address', 'address'], [token0.address, token1.address])]),
     '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303'
   )
@@ -117,24 +117,21 @@ export default function MigrateV2() {
           <AutoRow style={{ alignItems: 'center', justifyContent: 'space-between' }} gap="8px">
             <BackArrow to="/pool/v2" />
             <TYPE.mediumHeader>
-              <Trans>Migrate V2 Liquidity</Trans>
+              <Trans>Migrate Telefy Liquidity</Trans>
             </TYPE.mediumHeader>
             <div>
-              <QuestionHelper text={<Trans>Migrate your liquidity tokens from Uniswap V2 to Uniswap V3.</Trans>} />
+              <QuestionHelper text={<Trans>Migrate your liquidity tokens from Telefy</Trans>} />
             </div>
           </AutoRow>
 
           <TYPE.body style={{ marginBottom: 8, fontWeight: 400 }}>
-            <Trans>
-              For each pool shown below, click migrate to remove your liquidity from Uniswap V2 and deposit it into
-              Uniswap V3.
-            </Trans>
+            <Trans> For each pool shown below, click migrate to remove your liquidity from Telefy.</Trans>
           </TYPE.body>
 
           {!account ? (
             <LightCard padding="40px">
               <TYPE.body color={theme.text3} textAlign="center">
-                <Trans>Connect to a wallet to view your V2 liquidity.</Trans>
+                <Trans>Connect to a wallet to view your Telefy liquidity.</Trans>
               </TYPE.body>
             </LightCard>
           ) : v2IsLoading ? (
@@ -165,13 +162,13 @@ export default function MigrateV2() {
               })}
             </>
           ) : (
-            <EmptyState message={<Trans>No V2 Liquidity found.</Trans>} />
+            <EmptyState message={<Trans>No Telefy Liquidity found.</Trans>} />
           )}
 
           <AutoColumn justify={'center'} gap="md">
             <Text textAlign="center" fontSize={14} style={{ padding: '.5rem 0 .5rem 0' }}>
               <Trans>
-                Don’t see one of your v2 positions?{' '}
+                Don’t see one of your Telefy positions?{' '}
                 <StyledInternalLink id="import-pool-link" to={'/find?origin=/migrate/v2'}>
                   Import it.
                 </StyledInternalLink>

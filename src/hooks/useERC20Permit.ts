@@ -1,6 +1,6 @@
 import JSBI from 'jsbi'
 import { Percent, CurrencyAmount, Currency, TradeType, Token } from '@uniswap/sdk-core'
-import { Trade as V2Trade } from '@uniswap/v2-sdk'
+import { Trade as V2Trade } from '@mazelon/teleswap-sdk'
 import { Trade as V3Trade } from '@uniswap/v3-sdk'
 import { splitSignature } from 'ethers/lib/utils'
 import { useMemo, useState } from 'react'
@@ -259,7 +259,7 @@ export function useERC20Permit(
 
 const REMOVE_V2_LIQUIDITY_PERMIT_INFO: PermitInfo = {
   version: '1',
-  name: 'Uniswap V2',
+  name: 'Telefy',
   type: PermitType.AMOUNT,
 }
 

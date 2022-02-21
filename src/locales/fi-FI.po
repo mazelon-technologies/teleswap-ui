@@ -223,8 +223,8 @@ msgid "Amount"
 msgstr "Määrä"
 
 #: src/hooks/useSwapCallback.ts
-msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Tapahtui virhe yritettäessä vaihdon suorittamista. Saatat joutua lisäämään luistonsietoprosenttiasi. Jos se ei toimi, kaupankäynnin kohteena oleva rahake saattaa olla yhteensopimaton. Siirtopalkkiolliset ja joustavan tarjonnan rahakkeet eivät ole yhteensopivia Uniswap V3:n kanssa."
+msgid "An error occurred when trying to execute this swap. You may need to increase your slippage tolerance. If that does not work, there may be an incompatibility with the token you are trading. Note fee on transfer and rebase tokens are incompatible with Telefy."
+msgstr "Tapahtui virhe yritettäessä vaihdon suorittamista. Saatat joutua lisäämään luistonsietoprosenttiasi. Jos se ei toimi, kaupankäynnin kohteena oleva rahake saattaa olla yhteensopimaton. Siirtopalkkiolliset ja joustavan tarjonnan rahakkeet eivät ole yhteensopivia Telefy:n kanssa."
 
 #: src/components/Menu/index.tsx
 msgid "Analytics"
@@ -573,8 +573,8 @@ msgid "Deposit Amounts"
 msgstr "Talletusten määrä"
 
 #: src/pages/Earn/Manage.tsx
-msgid "Deposit UNI-V2 LP Tokens"
-msgstr "Talleta UNI-V2 LP -rahakkeita"
+msgid "Deposit TEL-LP LP Tokens"
+msgstr "Talleta TEL-LP LP -rahakkeita"
 
 #: src/components/earn/StakingModal.tsx
 msgid "Deposit liquidity"
@@ -589,8 +589,8 @@ msgid "Deposited liquidity:"
 msgstr "Talletettu likviditeetti:"
 
 #: src/components/earn/StakingModal.tsx
-msgid "Deposited {0} UNI-V2"
-msgstr "Talletettu {0} UNI-V2"
+msgid "Deposited {0} TEL-LP"
+msgstr "Talletettu {0} TEL-LP"
 
 #: src/components/earn/StakingModal.tsx
 msgid "Depositing Liquidity"
@@ -710,8 +710,8 @@ msgid "For"
 msgstr "Kohteelle"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "For each pool shown below, click migrate to remove your liquidity from Uniswap V2 and deposit it into Uniswap V3."
-msgstr "Kunkin alla olevan poolin kohdalla paina \"siirrä\" poistaaksesi likviditeettisi Uniswap V2:sta ja tallettaaksesi sen Uniswap V3:een."
+msgid "For each pool shown below, click migrate to remove your liquidity from Telefy and deposit it into Telefy."
+msgstr "Kunkin alla olevan poolin kohdalla paina \"siirrä\" poistaaksesi likviditeettisi Telefy:sta ja tallettaaksesi sen Telefy:een."
 
 #: src/components/swap/SwapModalHeader.tsx
 #: src/pages/Swap/index.tsx
@@ -943,8 +943,8 @@ msgid "Migrate V2 liquidity"
 msgstr "Siirrä V2-likviditeetti"
 
 #: src/pages/MigrateV2/index.tsx
-msgid "Migrate your liquidity tokens from Uniswap V2 to Uniswap V3."
-msgstr "Siirrä likviditeettirahakkeesi Uniswap V2:sta Uniswap V3:een."
+msgid "Migrate your liquidity tokens from Telefy to Telefy."
+msgstr "Siirrä likviditeettirahakkeesi Telefy:sta Telefy:een."
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "Migrating"
@@ -1302,8 +1302,8 @@ msgid "Something went wrong"
 msgstr "Jotain meni pieleen"
 
 #: src/pages/Earn/Manage.tsx
-msgid "Step 1. Get UNI-V2 Liquidity tokens"
-msgstr "Vaihe 1. Hanki UNI-V2 likviditeettirahakkeita"
+msgid "Step 1. Get TEL-LP Liquidity tokens"
+msgstr "Vaihe 1. Hanki TEL-LP likviditeettirahakkeita"
 
 #: src/components/vote/VoteModal.tsx
 msgid "Submitting Vote"
@@ -1355,8 +1355,8 @@ msgid "The output token cannot be transferred. There may be an issue with the ou
 msgstr "Tulosrahaketta ei voida siirtää. Tulosrahakkeessa voi olla ongelma."
 
 #: src/hooks/useSwapCallback.ts
-msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Tulostunnusta ei voi siirtää. Tulostunnuksessa voi olla ongelma. Huomautus: siirto- ja uudelleentase-tunnusten maksu ei ole yhteensopiva Uniswap V3: n kanssa."
+msgid "The output token cannot be transferred. There may be an issue with the output token. Note: fee on transfer and rebase tokens are incompatible with Telefy."
+msgstr "Tulostunnusta ei voi siirtää. Tulostunnuksessa voi olla ongelma. Huomautus: siirto- ja uudelleentase-tunnusten maksu ei ole yhteensopiva Telefy: n kanssa."
 
 #: src/components/Badge/RangeBadge.tsx
 msgid "The price of this pool is outside of your selected range. Your position is not currently earning fees."
@@ -1387,8 +1387,8 @@ msgid "This tool will safely migrate your {0} liquidity to V3. The process is co
 msgstr "Tämä työkalu siirtää {0} likviditeettisi turvallisesti V3:lle. Prosessi on täysin luotettava kiitos"
 
 #: src/hooks/useSwapCallback.ts
-msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Tämä kauppa ei onnistu hintaliikkeen vuoksi. Yritä lisätä liukastumistoleranssia. Huomautus: siirto- ja uudelleentase-tunnusten maksu ei ole yhteensopiva Uniswap V3: n kanssa."
+msgid "This transaction will not succeed due to price movement. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Telefy."
+msgstr "Tämä kauppa ei onnistu hintaliikkeen vuoksi. Yritä lisätä liukastumistoleranssia. Huomautus: siirto- ja uudelleentase-tunnusten maksu ei ole yhteensopiva Telefy: n kanssa."
 
 #: src/hooks/useSwapCallback.ts
 msgid "This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance."
@@ -1481,12 +1481,12 @@ msgid "UNI {0}/{1} Burned"
 msgstr "UNI {0}/{1} Poltettu"
 
 #: src/pages/Earn/Manage.tsx
-msgid "UNI-V2 LP tokens are required. Once you've added liquidity to the {0}-{1} pool you can stake your liquidity tokens on this page."
-msgstr "UNI-V2 LP -rahakkeita vaaditaan. Kun olet lisännyt likviditeettiä {0}-{1} pooliin, voit käyttää likviditeettirahakkeitasi tällä sivulla."
+msgid "TEL-LP LP tokens are required. Once you've added liquidity to the {0}-{1} pool you can stake your liquidity tokens on this page."
+msgstr "TEL-LP LP -rahakkeita vaaditaan. Kun olet lisännyt likviditeettiä {0}-{1} pooliin, voit käyttää likviditeettirahakkeitasi tällä sivulla."
 
 #: src/pages/Earn/Manage.tsx
-msgid "UNI-V2 {0}-{1}"
-msgstr "UNI-V2 {0}-{1}"
+msgid "TEL-LP {0}-{1}"
+msgstr "TEL-LP {0}-{1}"
 
 #: src/components/earn/ClaimRewardModal.tsx
 #: src/components/earn/UnstakingModal.tsx
@@ -1506,8 +1506,8 @@ msgid "Uniswap Governance"
 msgstr "Uniswapin hallinto"
 
 #: src/pages/Pool/CTACards.tsx
-msgid "Uniswap V3 is here!"
-msgstr "Uniswap V3 on täällä!"
+msgid "Telefy is here!"
+msgstr "Telefy on täällä!"
 
 #: src/components/SwitchLocaleLink/index.tsx
 msgid "Uniswap available in: <0>{0}</0>"
@@ -1526,8 +1526,8 @@ msgid "Unknown Source"
 msgstr "Tuntematon lähde"
 
 #: src/hooks/useSwapCallback.ts
-msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Uniswap V3."
-msgstr "Tuntematon virhe{0}. Yritä lisätä liukastumistoleranssia. Huomautus: siirto- ja uudelleentase-tunnusten maksu ei ole yhteensopiva Uniswap V3: n kanssa."
+msgid "Unknown error{0}. Try increasing your slippage tolerance. Note: fee on transfer and rebase tokens are incompatible with Telefy."
+msgstr "Tuntematon virhe{0}. Yritä lisätä liukastumistoleranssia. Huomautus: siirto- ja uudelleentase-tunnusten maksu ei ole yhteensopiva Telefy: n kanssa."
 
 #: src/pages/Vote/VotePage.tsx
 #: src/pages/Vote/index.tsx
@@ -1679,12 +1679,12 @@ msgid "Withdraw deposited liquidity"
 msgstr "Vedä talletettu likviditeetti takaisin"
 
 #: src/components/earn/UnstakingModal.tsx
-msgid "Withdrawing {0} UNI-V2"
-msgstr "Vedetään pois {0} UNI-V2"
+msgid "Withdrawing {0} TEL-LP"
+msgstr "Vedetään pois {0} TEL-LP"
 
 #: src/components/earn/UnstakingModal.tsx
-msgid "Withdrew UNI-V2!"
-msgstr "UNI-V2 vedetty pois!"
+msgid "Withdrew TEL-LP!"
+msgstr "TEL-LP vedetty pois!"
 
 #: src/pages/Swap/index.tsx
 msgid "Wrap"
@@ -1700,8 +1700,8 @@ msgid "You are creating a pool"
 msgstr "Olet luomassa poolia"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You are the first liquidity provider for this Uniswap V3 pool. Your liquidity will migrate at the current {0} price."
-msgstr "Olet tämän Uniswap V3 -poolin ensimmäinen likviditeetin tarjoaja. Likviditeettisi siirtyy nykyiseen {0} hintaan."
+msgid "You are the first liquidity provider for this Telefy pool. Your liquidity will migrate at the current {0} price."
+msgstr "Olet tämän Telefy -poolin ensimmäinen likviditeetin tarjoaja. Likviditeettisi siirtyy nykyiseen {0} hintaan."
 
 #: src/pages/AddLiquidityV2/index.tsx
 msgid "You are the first liquidity provider."
@@ -1728,8 +1728,8 @@ msgid "You must give the Uniswap smart contracts permission to use your {0}. You
 msgstr "Sinun täytyy antaa Uniswapin älykkäille sopimuksille lupa käyttää {0}. Sinun täytyy tehdä tämä vain kerran per rahake."
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
-msgid "You should only deposit liquidity into Uniswap V3 at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
-msgstr "Sinun tulisi tallettaa likviditeettiä Uniswap V3:een ainoastaan hintaan, jonka uskot olevan oikein. <0/>Jos hinta vaikuttaa virheelliseltä, voit joko vaihtaa hintaa tai odottaa jonkun muun tekevän niin."
+msgid "You should only deposit liquidity into Telefy at a price you believe is correct. <0/>If the price seems incorrect, you can either make a swap to move the price or wait for someone else to do so."
+msgstr "Sinun tulisi tallettaa likviditeettiä Telefy:een ainoastaan hintaan, jonka uskot olevan oikein. <0/>Jos hinta vaikuttaa virheelliseltä, voit joko vaihtaa hintaa tai odottaa jonkun muun tekevän niin."
 
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "You will also collect fees earned from this position."
@@ -1915,12 +1915,12 @@ msgid "{0} UNI / week"
 msgstr "{0} UNI / viikko"
 
 #: src/components/earn/StakingModal.tsx
-msgid "{0} UNI-V2"
-msgstr "{0} UNI-V2"
+msgid "{0} TEL-LP"
+msgstr "{0} TEL-LP"
 
 #: src/pages/Earn/Manage.tsx
-msgid "{0} UNI-V2 LP tokens available"
-msgstr "{0} UNI-V2 LP -rahaketta saatavilla"
+msgid "{0} TEL-LP LP tokens available"
+msgstr "{0} TEL-LP LP -rahaketta saatavilla"
 
 #: src/components/vote/VoteModal.tsx
 msgid "{0} Votes"

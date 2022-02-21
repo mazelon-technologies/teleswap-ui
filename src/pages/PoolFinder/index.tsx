@@ -87,7 +87,7 @@ export default function PoolFinder() {
         {!account ? (
           <Trans>Connect to a wallet to find pools</Trans>
         ) : (
-          <Trans>Select a token to find your v2 liquidity.</Trans>
+          <Trans>Select a token to find your Telefy liquidity.</Trans>
         )}
       </Text>
     </LightCard>
@@ -102,7 +102,7 @@ export default function PoolFinder() {
             <AutoColumn gap="10px">
               <TYPE.link fontWeight={400} color={'primaryText1'}>
                 <Trans>
-                  <b>Tip:</b> Use this tool to find v2 pools that don&apos;t automatically appear in the interface.
+                  <b>Tip:</b> Use this tool to find Telefy pools that don&apos;t automatically appear in the interface.
                 </Trans>
               </TYPE.link>
             </AutoColumn>

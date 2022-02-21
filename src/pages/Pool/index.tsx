@@ -150,7 +150,7 @@ export default function Pool() {
       content: (
         <MenuItem>
           <Layers size={16} style={{ marginRight: '12px' }} />
-          <Trans>V2 liquidity</Trans>
+          <Trans>Tele liquidity</Trans>
         </MenuItem>
       ),
       link: '/pool/v2',
@@ -163,7 +163,7 @@ export default function Pool() {
           <Trans>Learn</Trans>
         </MenuItem>
       ),
-      link: 'https://docs.uniswap.org/',
+      link: '#',
       external: true,
     },
   ]
@@ -236,7 +236,7 @@ export default function Pool() {
                   <TYPE.mediumHeader color={theme.text3} textAlign="center">
                     <Inbox size={48} strokeWidth={1} style={{ marginBottom: '.5rem' }} />
                     <div>
-                      <Trans>Your V3 liquidity positions will appear here.</Trans>
+                      <Trans>Your Telefy liquidity positions will appear here.</Trans>
                     </div>
                   </TYPE.mediumHeader>
                   {!account ? (
@@ -250,7 +250,7 @@ export default function Pool() {
                       id="import-pool-link"
                       style={{ marginTop: '2em', padding: '8px 16px', borderRadius: '12px', width: 'fit-content' }}
                     >
-                      <Trans>Migrate V2 liquidity</Trans>?&nbsp;&nbsp;
+                      <Trans>Migrate Telefy liquidity</Trans>?&nbsp;&nbsp;
                       <Download size={16} />
                     </ButtonGray>
                   )}
@@ -258,7 +258,7 @@ export default function Pool() {
               )}
             </MainContentWrapper>
             <RowFixed justify="center" style={{ width: '100%' }}>
-              <ButtonOutlined
+              {/* <ButtonOutlined
                 as={Link}
                 to="/pool/v2"
                 id="import-pool-link"
@@ -273,7 +273,7 @@ export default function Pool() {
                 <Layers size={14} style={{ marginRight: '8px' }} />
 
                 <Trans>View V2 Liquidity</Trans>
-              </ButtonOutlined>
+              </ButtonOutlined> */}
               {positions && positions.length > 0 && (
                 <ButtonOutlined
                   as={Link}
